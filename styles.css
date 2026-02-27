@@ -1,0 +1,71 @@
+body{
+margin: 0;
+background: #27fd27;
+color: #64bf71;
+}
+
+h1{
+font-size: 15rem;
+color: rgba(27, 172, 14, 0.944); 
+background-blend-mode: screen;
+text-shadow: 5px 5px rgb(255, 0, 174), -5px -5px rgb(255, 0, 0);
+}
+
+h2{
+    font-size: 25rem;
+    color: rgba(27, 172, 14, 0.944);
+}
+
+p{
+    font-size: 0.7rem; 
+    background-blend-mode: screen;
+}
+
+.top-warning{
+    background: #05dd05; 
+    color: rgb(37, 78, 65);
+    text-align: right;
+    padding: 300px;
+    letter-spacing: 12px;
+    font-size: 3rem;
+}
+
+.ugly{
+    position: fixed;
+    border: 200px rgb(199, 33, 116);
+    top: 60%;
+    left: 0;
+    width: 900px;
+    z-index: 9999;
+    opacity: 0.8;
+    animation: chaosMove 3s infinite alternate ease-in-out;
+}
+
+@keyframes chaosMove {
+    0% {
+        left: -200px;
+        top: 10%;
+        transform: rotate(0deg);
+    }
+    50% {
+        left: 50%;
+        top: 40%;
+        transform: rotate(180deg) scale(0);
+    }
+    100% {
+        left: 700px;
+        top: 70%;
+        transform: rotate(360deg);
+    }
+}
+
+.striped-section{
+    padding: -10px;
+    background: repeating-linear-gradient(
+        20deg,
+        lime 0px,
+        lime 20px,
+        rgb(4, 223, 63) 20px,
+        rgb(4, 223, 63) 40px
+    );
+}
