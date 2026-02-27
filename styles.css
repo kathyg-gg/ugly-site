@@ -1,19 +1,20 @@
 body{
-margin: 0;
-background: #27fd27;
-color: #64bf71;
+    margin: 0;
+    background: #27fd27;
+    color: #64bf71;
 }
 
 h1{
-font-size: 15rem;
-color: rgba(27, 172, 14, 0.944); 
-background-blend-mode: screen;
-text-shadow: 5px 5px rgb(255, 0, 174), -5px -5px rgb(255, 0, 0);
+    font-size: 15rem;
+    color: rgba(27, 172, 14, 0.944); 
+    background-blend-mode: screen;
+    text-shadow: 5px 5px rgb(255, 0, 174), -5px -5px rgb(255, 0, 0);
 }
 
 h2{
     font-size: 25rem;
     color: rgba(27, 172, 14, 0.944);
+    rotate: 2.5deg;
 }
 
 p{
